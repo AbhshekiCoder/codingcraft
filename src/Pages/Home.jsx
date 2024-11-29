@@ -28,7 +28,7 @@ export default function Home() {
     
   
     </div>
-    <div className='bg-blue-200  text-white pt-16 pb-16 '>
+    <div className='bg-blue-100  text-white pt-16 pb-16 '>
     <div className=' max-w-6xl m-auto max-md:p-3'>
     <h1 className='text-3xl font-bold'>
       Hire Us for
@@ -235,6 +235,9 @@ Looking out for customized solutions for your websites? Our team will develop an
 
     </div>
   
+    </div>
+    <div className='bg-blue-500'>
+
     </div>
     </>
 
