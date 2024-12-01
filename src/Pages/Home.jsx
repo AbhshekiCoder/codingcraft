@@ -1,19 +1,22 @@
 import React from 'react'
-import '../CSS/Home.css';
+import '../CSS/home.css';
 import Navbar from '../Compnents/Navbar';
 import bg1 from '../assets/bg1.jpg';
 import bg3 from '../assets/bg3.jpg'
+import Footer from '../Compnents/Footer';
 export default function Home() {
   return (
     <>
    
    
  
+   <div className='main-container'>
+
    
     <div className='bg-image'>
     <Navbar/>
     <div className=' max-w-7xl m-auto '> 
-    <div className=' max-w-6xl text-white font-bold h-fit  font-sans'>
+    <div className=' max-w-6xl text-white font-bold h-fit  font-sans' >
     <p className='text-7xl max-md:text-5xl max-md:flex max-md:justify-center max-sm:text-3xl '> Digital Agency That</p>
     <p className='text-7xl pt-9 max-md:text-5xl max-md:flex max-md:justify-center  max-sm:text-3xl'> Thrives on Your Success</p>
     </div>
@@ -28,7 +31,7 @@ export default function Home() {
     
   
     </div>
-    <div className='bg-blue-100  text-white pt-16 pb-16 '>
+    <div className='  pt-16 pb-16 '>
     <div className=' max-w-6xl m-auto max-md:p-3'>
     <h1 className='text-3xl font-bold'>
       Hire Us for
@@ -36,7 +39,7 @@ export default function Home() {
     <div className='w-full max-md:p-3'>
     <div className='row  mt-10 w-fit '>
     <div className='col-md max-md:mt-3'>
-    <div className='text-yellow-300 font-bold text-xl max-md:text-center'>
+    <div className='text-gray-500 font-bold text-xl max-md:text-center'>
       Design
     </div>
     <div className='mt-6 text-lg max-md:text-center'>
@@ -45,7 +48,7 @@ export default function Home() {
 
     </div>
     <div className='col-md max-md:mt-3'>
-    <div className='text-yellow-300 font-bold text-xl max-md:text-center'>
+    <div className='text-gray-500 font-bold text-xl max-md:text-center'>
     Development
     </div>
     <div className='mt-6 text-lg max-md:text-center'>
@@ -55,7 +58,7 @@ Looking out for customized solutions for your websites? Our team will develop an
 
     </div>
     <div className='col-md max-md:mt-3'>
-    <div className='text-yellow-300 font-bold text-xl max-md:text-center'>
+    <div className='text-gray-500 font-bold text-xl max-md:text-center'>
     Marketing
     </div>
     <div className='mt-6 text-lg max-md:text-center'>
@@ -107,9 +110,9 @@ Looking out for customized solutions for your websites? Our team will develop an
     </div>
    
     </div>
-    <div className='col-md  flex justify-end   max-md:justify-center max-md:p-3 max-md:w-full '>
-    <div className=' absolute  mt-36 img max-lg:mt-72 max-md:static max-md:mt-3 max-md:w-full   '>
-    <img src = "https://crazzyshuttlers.com/wp-content/uploads/2021/05/about.jpg" className='w-full h-full'/>
+    <div className='col-md  flex justify-end   max-md:justify-center max-md:p-3 max-md:w-full ' >
+    <div className=' absolute  mt-36 img max-lg:mt-72 max-md:static max-md:mt-3 max-md:w-full  ' >
+    <img src = "https://crazzyshuttlers.com/wp-content/uploads/2021/05/about.jpg" className='w-full h-full' />
 
     </div>
 
@@ -121,8 +124,8 @@ Looking out for customized solutions for your websites? Our team will develop an
     </div>
 
     </div>
-    <div className='bg-blue-400 text-white w-full pt-16 pb-36 max-md:pb-0 ' style={{minHeight: "700px"}}>
-    <h1 className='flex justify-center text-5xl font-bold  mt-36 max-md:text-3xl max-md:mt-9'>Client we Worked with </h1>
+    <div className=' w-full pt-16 pb-36 max-md:pb-0 ' style={{minHeight: "700px"}}>
+    <h1 className='flex justify-center text-5xl font-bold  mt-36 max-md:text-3xl max-md:mt-9 text-gray-500'>Client we Worked with </h1>
     
     <div className=' max-w-5xl m-auto row   pt-16 w-full max-md:p-3'>
      <div className='col-md  max-md:w-full max-md:flex max-md:justify-center mt-3'>
@@ -144,7 +147,7 @@ Looking out for customized solutions for your websites? Our team will develop an
 
     </div>
     <div className=' max-w-6xl m-auto pt-16 h-fit'>
-    <h1 className='mt-6 text-5xl font-bold max-md:flex max-md:justify-center max-md:text-3xl'>Why Choose us?</h1>
+    <h1 className='mt-6 text-5xl font-bold max-md:flex max-md:justify-center max-md:text-3xl text-gray-500'>Why Choose us?</h1>
     <p className='font-bold mt-9 max-md:text-center max-sm:text-sm  max-sm:p-3'>
     We are the right term for your business. We have the expertise and knowledge to offer impartial advice and services at an honest price.
     </p>
@@ -152,7 +155,7 @@ Looking out for customized solutions for your websites? Our team will develop an
     With us you’ll feel heard. We listen to our client requirements and then select the right solution that fits. We care for your business as our own. We take a sincere interest in it and genuinely want to help your company reach its potential.
 
     </p>
-    <div className=' absolute min-h-96   bg-blue-500 max-w-6xl mt-6 flex flex-wrap text-white max-md:static '>
+    <div className=' absolute min-h-96   bg-blue-500 max-w-6xl mt-6 flex flex-wrap text-white max-md:static ' style={{boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px"}}>
     <div className='col-md p-9 bg-blue-500 max-w-96  max-md:w-full max-md:p-3'>
     <h1 className='text-4xl font-bold'>
       Have a project in mind
@@ -186,7 +189,10 @@ Looking out for customized solutions for your websites? Our team will develop an
     
 
     </div>
-    <div className='bg-blue-600   text-white border h-fit pt-9 pb-9'>
+   
+   
+   
+    <div className='bg-blue-600   text-white  h-fit pt-9 pb-9'>
    
     <div className='max-w-6xl  m-auto   pt-96 flex justify-between max-md:pt-0 flex-wrap  '>
     <h1 className=' max-w-lg text-5xl font-bold mt-16  max-md:text-3xl max-md:m-auto max-md:pt-6 max-md:p-3'>
@@ -200,7 +206,10 @@ Looking out for customized solutions for your websites? Our team will develop an
    
 
     </div>
-    <div className='bg-blue-400 text-white pt-16 pb-16 h-fit'>
+
+
+    
+    <div className=' pt-16   h-96  mb-6  '>
     <div className='max-w-7xl m-auto p-3'>
     <h1 className='font-bold'>Trust you partners</h1>
     <div className='mt-6 row p-3  justify-between flex-wrap max-md:p-3'>
@@ -213,20 +222,20 @@ Looking out for customized solutions for your websites? Our team will develop an
 
     </div>
     <div className='mt-6 grid grid-cols-3  gap-x-3 max-md:grid-cols-2 max-sm:grid-cols-1  gap-3'>
-    <div className='w-full h-96 max-md:h-72 '>
+    <div  className='w-full h-96 max-md:h-72 ' style={{boxShadow: 'rgba(99, 99, 99, 0.2) 0px 2px 8px 0px'}} >
     <img src = "https://crazzyshuttlers.com/wp-content/uploads/2021/05/gallery-1.jpg" className='w-full h-full'/>
 
     </div>
-    <div className='w-full h-96 max-md:h-72 '>
-    <img src = "https://crazzyshuttlers.com/wp-content/uploads/2021/05/gallery-1.jpg" className='w-full h-full'/>
-
-    </div>
-
-    <div className='w-full h-96 max-md:h-72 '>
+    <div className='w-full h-96 max-md:h-72 '  style={{boxShadow: 'rgba(99, 99, 99, 0.2) 0px 2px 8px 0px'}} >
     <img src = "https://crazzyshuttlers.com/wp-content/uploads/2021/05/gallery-1.jpg" className='w-full h-full'/>
 
     </div>
 
+    <div className='w-full h-96 max-md:h-72 '  style={{boxShadow: 'rgba(99, 99, 99, 0.2) 0px 2px 8px 0px'}}  >
+    <img src = "https://crazzyshuttlers.com/wp-content/uploads/2021/05/gallery-1.jpg" className='w-full h-full'/>
+
+    </div>
+
 
     </div>
 
@@ -234,11 +243,42 @@ Looking out for customized solutions for your websites? Our team will develop an
 
 
     </div>
+    <div className=' bg-blue-500 pt-16 pb-16'>
+    <div className = "row p-3 max-w-6xl m-auto  text-white">
+      <div className='col-md  text-5xl  font-bold max-md:text-3xl'>
+       Subscribe
+       
+
+
+
+      </div>
+      <div className='col-md max-md:mt-3 max-md:p-3'>
+      <div className='flex flex-wrap max-md:block max-md:w-full   '>
+      <div className='w-96 h-10 max-md:w-full  '>
+      <input type = "text" placeholder='Email Address' className='w-full  h-full text-black'/>
+
+      </div>
+      <div className='flex justify-center items-center border pl-3 pr-3 ml-3 max-lg:mt-3 max-lg:h-10  max-md:full'>
+        I am Interested
+      </div>
+   
+     
+    
+
+      </div>
+
+      </div>
+    </div>
+   
+
+    </div>
+    <Footer/>
   
+    
     </div>
-    <div className='bg-blue-500'>
-
-    </div>
+    
+</div>
+    
     </>
 
    
