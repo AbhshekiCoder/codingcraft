@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../src/CSS/home.css';
+import '../../src/CSS/Home.css';
 import Navbar from '../Compnents/Navbar';
 
 import bg3 from '../assets/bg3.jpg'
