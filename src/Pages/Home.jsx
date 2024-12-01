@@ -1,7 +1,7 @@
 import React from 'react'
-import '../CSS/home.css';
+import '../../src/CSS/home.css';
 import Navbar from '../Compnents/Navbar';
-import bg1 from '../assets/bg1.jpg';
+
 import bg3 from '../assets/bg3.jpg'
 import Footer from '../Compnents/Footer';
 export default function Home() {
