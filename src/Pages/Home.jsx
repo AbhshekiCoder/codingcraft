@@ -16,12 +16,14 @@ export default function Home() {
     <div className='bg-image'>
     <Navbar/>
     <div className=' max-w-7xl m-auto '> 
-    <div className=' max-w-6xl text-white font-bold h-fit  font-sans' >
+    <div className=' max-w-6xl font-bold font-sans h-fit  font-sans'style={{color: '#efe3f1'
+}} >
     <p className='text-7xl max-md:text-5xl max-md:flex max-md:justify-center max-sm:text-3xl '> Digital Agency That</p>
     <p className='text-7xl pt-9 max-md:text-5xl max-md:flex max-md:justify-center  max-sm:text-3xl'> Thrives on Your Success</p>
     </div>
     <div className='mt-16 flex justify-end txt-white'>
-      <p className=' max-w-lg text-white text-xl font-bold mt-16 max-sm:text-lg max-sm:text-center max-sm:p-3 '>
+      <p className=' max-w-lg text-xl font-bold mt-16 max-sm:text-lg max-sm:text-center max-sm:p-3 'style={{color: '#efe3f1'
+}}>
       If you are looking for an agency to help you create a remarkable presence online, you’ve come to the right place. We can help you take your business to the next level.
       </p>
     </div>
@@ -53,7 +55,7 @@ export default function Home() {
     </div>
     <div className='mt-6 text-lg max-md:text-center'>
     Development
-Looking out for customized solutions for your websites? Our team will develop and deliver a website that’ll serve your purpos
+Looking out for customized solutions for your websites? Our team will develop and deliver a website that’ll serve your purpose
     </div>
 
     </div>
@@ -85,7 +87,7 @@ Looking out for customized solutions for your websites? Our team will develop an
     <div className=''>
     <p className='text-5xl  font-bold max-lg:text-4xl max-md:text-2xl'>About us</p>
     <div className='text-lg font-bold mt-3 max-md:text-sm'>
-    We are a team of 40 web experts with over 12 years of experience in website building and marketing to help businesses grow online.
+    We are a team of 10 web experts with over 2 years of experience in website building and marketing to help businesses grow online.
 
     </div>
 

@@ -20,9 +20,9 @@ export default function Navbar() {
     Coding Craft
 
     </div>
-    <div className='flex  text-xl  w-1/3  justify-between font-bold max-lg:hidden' style={{color: 'yellow'
+    <div className='flex  text-xl  w-1/3  justify-between font-bold max-lg:hidden' style={{color: '#efe3f1'
 }}>
-        <div className=' hover:text-blue-400 text-yellow-100'>
+        <div className=' hover:text-blue-400'>
            <Link to = "/">home</Link> 
         </div>
         <div className=' hover:text-blue-400'>
