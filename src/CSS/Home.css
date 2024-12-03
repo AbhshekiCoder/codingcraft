@@ -5,7 +5,8 @@
     justify-content: space-between;
     position: relative; /* To position the overlay correctly */
     background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+    background-color: rgba(52, 38, 27, 0.67)
+/* Black w/ opacity */
 }
 
 .bg-image::before {

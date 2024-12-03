@@ -257,7 +257,7 @@ Looking out for customized solutions for your websites? Our team will develop an
       <div className='col-md max-md:mt-3 max-md:p-3'>
       <div className='flex flex-wrap max-md:block max-md:w-full   '>
       <div className='w-96 h-10 max-md:w-full  '>
-      <input type = "text" placeholder='Email Address' className='w-full  h-full text-black'/>
+      <input type = "text" placeholder='Email Address' className='w-full  h-full text-black p-3 outline-none ' />
 
       </div>
       <div className='flex justify-center items-center border pl-3 pr-3 ml-3 max-lg:mt-3 max-lg:h-10  max-md:full'>
