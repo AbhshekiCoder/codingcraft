@@ -166,7 +166,7 @@ Looking out for customized solutions for your websites? Our team will develop an
     We can help you bring your ideas to life. Let’s talk about what we can build and raise together.
     </p>
     <button className='p-2 mt-36 border'>
-    Connect with us 
+    <a href = "https://wa.link/xg97t2">Connect with us </a>
 
     </button>
 
@@ -224,16 +224,16 @@ Looking out for customized solutions for your websites? Our team will develop an
 
     </div>
     <div className='mt-6 grid grid-cols-3  gap-x-3 max-md:grid-cols-2 max-sm:grid-cols-1  gap-3'>
-    <div  className='w-full h-96 max-md:h-72 ' style={{boxShadow: 'rgba(99, 99, 99, 0.2) 0px 2px 8px 0px'}} >
+    <div  className='w-full h-96 max-md:h-72 teams-item ' style={{boxShadow: 'rgba(99, 99, 99, 0.2) 0px 2px 8px 0px'}} >
     <img src = "https://crazzyshuttlers.com/wp-content/uploads/2021/05/gallery-1.jpg" className='w-full h-full'/>
 
     </div>
-    <div className='w-full h-96 max-md:h-72 '  style={{boxShadow: 'rgba(99, 99, 99, 0.2) 0px 2px 8px 0px'}} >
+    <div className='w-full h-96 max-md:h-72 teams-item '  style={{boxShadow: 'rgba(99, 99, 99, 0.2) 0px 2px 8px 0px'}} >
     <img src = "https://crazzyshuttlers.com/wp-content/uploads/2021/05/gallery-1.jpg" className='w-full h-full'/>
 
     </div>
 
-    <div className='w-full h-96 max-md:h-72 '  style={{boxShadow: 'rgba(99, 99, 99, 0.2) 0px 2px 8px 0px'}}  >
+    <div className='w-full h-96 max-md:h-72 teams-item '  style={{boxShadow: 'rgba(99, 99, 99, 0.2) 0px 2px 8px 0px'}}  >
     <img src = "https://crazzyshuttlers.com/wp-content/uploads/2021/05/gallery-1.jpg" className='w-full h-full'/>
 
     </div>

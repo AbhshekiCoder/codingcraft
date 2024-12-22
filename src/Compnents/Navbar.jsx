@@ -1,6 +1,7 @@
 import React from 'react'
 import '../CSS/navbar.css'
 import { Link } from 'react-router-dom'
+import logo from '../assets/bg.png'
 export default function Navbar() {
   function sidebar(){
   
@@ -14,11 +15,10 @@ export default function Navbar() {
     <>
 
   
-    <div className='navbar flex  text-white p-6 justify-between items-center' >
+    <div className='navbar flex  text-white p-6 justify-between items-center ' >
     <div className='logo text-3xl pl-6 font-bold font-sans max-sm:text-2xl'>
   
-    Coding Craft
-
+    <img src  = {logo} className='w-16 h-16  '/>
     </div>
     <div className='flex  text-xl  w-1/3  justify-between font-bold max-lg:hidden' style={{color: '#efe3f1'
 }}>

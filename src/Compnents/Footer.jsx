@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Footer() {
   return (
@@ -8,12 +9,12 @@ export default function Footer() {
     
        <div className='col-md text-lg font-bold pt-16  max-md:w-full  '>
        <p className=' max-md:text-center'>
-       1234 N Spring St, Los Angeles, CA 90012
+       Shyam Nagar Nx Indore, MP
       
 
 
        </p>
-       <p className='max-md:text-center'> mail@example.com</p>
+       <p className='max-md:text-center'> abhishek@codingcraft.shop</p>
      
        </div>
        <div className='col-md  max-md:w-full max-md:text-center    '>
@@ -22,17 +23,17 @@ export default function Footer() {
 
        
        <div className='text-lg'>
-       Home
+      <Link to = "/">Home</Link> 
 
        </div>
        <div className='text-lg'>
-         Services
+        <Link to = "/service"> Services</Link>
        </div>
        <div className='text-lg'>
-        About
+        <Link to = "/about">About</Link>
        </div>
        <div className='text-lg'>
-        Contact
+        <Link to = "/contact">Contact</Link>
        </div>
        </div>
        <div className=' flex justify-end w-full max-md:justify-center max-md:mt-6 '>
@@ -69,7 +70,7 @@ export default function Footer() {
    
     </div>
     <div className=' mt-6 pt-9 pb-9 border-t-2 flex justify-center text-sm '>
-    Copyright © 2024 crazzyshuttlers.com | Powered by crazzyshuttlers.com
+    Copyright © 2024 codingcraft45@gmail.com| Powered by codingcraft.shop
     </div>
       
 

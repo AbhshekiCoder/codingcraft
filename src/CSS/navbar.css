@@ -12,3 +12,6 @@
         transform: translateX(-240px);
     }
 }
+.navbar{
+    backdrop-filter: blur(10px);
+}
