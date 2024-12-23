@@ -3,11 +3,12 @@ import '../CSS/services.css'
 import Navbar from '../Compnents/Navbar'
 import bg3 from '../assets/bg3.jpg'
 import Footer from '../Compnents/Footer'
+import Card from '../Compnents/Card'
 export default function About() {
   return (
       <>
-
-      
+     
+       <Card/>    
        <div className='bg-image1 max-md:p-3' >
       
       <Navbar/>

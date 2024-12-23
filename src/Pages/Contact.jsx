@@ -6,6 +6,7 @@ import 'leaflet/dist/leaflet.css';
 import Footer from '../Compnents/Footer';
 import  {app} from '../firebase.js/firebse'
 import { set, getDatabase, ref } from 'firebase/database';
+import Card from '../Compnents/Card';
 export default function Contact() {
   let position = [22.763383, 75.865488];
 
@@ -33,6 +34,7 @@ export default function Contact() {
       return (
     
    <>
+   <Card/>
      <div className='bg-image1 max-md:p-3' >
       
       <Navbar/>

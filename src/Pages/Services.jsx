@@ -3,10 +3,11 @@ import '../CSS/services.css'
 import Navbar from '../Compnents/Navbar'
 import bg3 from '../assets/bg3.jpg'
 import Footer from '../Compnents/Footer'
-
+import Card from '../Compnents/Card'
 export default function Services() {
   return (
      <>
+     <Card/>
       <div className='bg-image1' >
       
       <Navbar/>
