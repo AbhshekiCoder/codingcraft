@@ -145,26 +145,21 @@ Looking out for customized solutions for your websites? Our team will develop an
     
     <div className='max-w-6xl   m-auto row   pt-16 w-full max-md:p-3'>
     <Swiper
-        effect={'coverflow'}
+        effect={'cube'}
         grabCursor={true}
-        coverflowEffect={{
-          rotate: 50,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
-          slideShadows: true,
-        }}
+       
         autoplay={{
           delay: 3000,
           disableOnInteraction: false,
         }}
         pagination={true}
-        modules={[EffectCoverflow, Pagination, Autoplay]}
-        slidesPerView={3}
-        className="mySwiper h-72 max-w-6xl max-sm:h-60 "
+        modules={[EffectCube, Pagination, Autoplay]}
+       
+        className="mySwiper h-72 max-w-2xl max-sm:h-60 "
       >
         <SwiperSlide className='h-full w-full'>
-          <img src={img1} className='h-full w-full rounded-md '/>
+          
+          <img src={img1} className='h-full w-full rounded-md ' />
         </SwiperSlide>
         <SwiperSlide className='h-full w-full'>
           <img src={img2} className='h-full w-full rounded-md ' />

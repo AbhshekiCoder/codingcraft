@@ -35,3 +35,9 @@
         right: 20px;
     }
 }
+.items{
+    width: 100%;
+    background-color: gray;
+    opacity: 0.5;
+    animation: delay .2s;
+}

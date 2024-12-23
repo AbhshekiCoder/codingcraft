@@ -8,8 +8,13 @@ import 'swiper/css/pagination';
 import 'swiper/css/effect-cards';
 import { EffectCube, Pagination, Autoplay, EffectCoverflow, EffectCards } from 'swiper/modules';
 export default function Card() {
+     setInterval(()=>{
+        document.querySelector('.cards').style.display = "block"
+
+     },60000)
   return (
    <div className = "cards absolute w-fit " >
+   <div className=' flex justify-end text-white text-lg' onClick={()=>{document.querySelector('.cards').style.display = "none"}}><i class="fa-solid fa-xmark"></i></div>
   <Swiper   
   effect={'cards'}
   grabCursor={true}
