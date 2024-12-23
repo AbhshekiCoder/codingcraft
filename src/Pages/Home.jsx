@@ -8,9 +8,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css'; 
 // Import Swiper styles
 import 'swiper/css';
-import 'swiper/css/effect-cube';
+import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
-import { EffectCube, Pagination, Autoplay } from 'swiper/modules';
+import 'swiper/css/effect-cards';
+import { EffectCube, Pagination, Autoplay, EffectCoverflow, EffectCards } from 'swiper/modules';
 import img1 from '../assets/1.png'
 import img2 from '../assets/2.png';
 import img3 from '../assets/3.png'
@@ -21,7 +22,41 @@ export default function Home() {
     <>
    
    
+   <div className = "cards absolute w-fit " >
+<Swiper   
+effect={'cards'}
+grabCursor={true}
+
+        modules={[EffectCards, Pagination, Autoplay]}
+        className=' w-40  h-56 max-md:w-36 max-md:h-40 max-sm:w-24 max-sm:h-32  '>
+
  
+  <SwiperSlide className='bg-blue-500 rounded-xl w-full h-full  font-bold flex justify-center items-center text-white max-sm:text-sm max-sm:text-center '  style={{display: 'flex', justifyContent: 'center'}}>
+    Web development
+  </SwiperSlide>
+  <SwiperSlide className='bg-yellow-500 rounded-xl w-full h-full  font-bold flex justify-center items-center text-white max-sm:text-sm max-sm:text-center ' style={{display: 'flex', justifyContent: 'center'}}>
+  Web Designing
+
+  </SwiperSlide>
+  <SwiperSlide className='bg-red-500 rounded-xl w-full h-full  font-bold flex justify-center items-center text-white max-sm:text-sm max-sm:text-center' style={{display: 'flex', justifyContent: 'center'}}>
+  Maintenance
+  </SwiperSlide>
+  <SwiperSlide className='bg-green-500 rounded-xl w-full h-full  font-bold flex justify-center items-center text-white max-sm:text-sm max-sm:text-center' style={{display: 'flex', justifyContent: 'center'}}>
+    Content Writing
+  </SwiperSlide>
+  <SwiperSlide className='bg-purple-500 rounded-xl w-full h-full  font-bold flex justify-center items-center text-white max-sm:text-sm max-sm:text-center' style={{display: 'flex', justifyContent: 'center'}}>
+    Video Editing
+  </SwiperSlide>
+  <SwiperSlide  className='bg-green-500 rounded-xl w-full h-full  font-bold flex justify-center items-center text-white max-sm:text-sm max-sm:text-center' style={{display: 'flex', justifyContent: 'center'}}>
+   UI & Ux Designing
+  </SwiperSlide>
+  <SwiperSlide  className='bg-blue-500 rounded-xl w-full h-full  font-bold flex justify-center items-center text-white max-sm:text-sm max-sm:text-center' style={{display: 'flex', justifyContent: 'center'}}>
+    E-Commerce
+  </SwiperSlide>
+</Swiper>
+
+</div>
+    
    <div className='main-container'>
 
    
@@ -138,38 +173,40 @@ Looking out for customized solutions for your websites? Our team will develop an
     </div>
 
     </div>
-    <div className=' w-full pt-16 pb-36 max-md:pb-0 ' style={{minHeight: "700px"}}>
+    <div className=' w-full pt-16 pb-36 max-md:pb-0  bg-blue-300 ' style={{minHeight: "700px"}}>
     <h1 className='flex justify-center text-5xl font-bold  mt-36 max-md:text-3xl max-md:mt-9 text-gray-500'>Our Projects</h1>
     
-    <div className=' max-w-5xl m-auto row   pt-16 w-full max-md:p-3'>
+    <div className='max-w-6xl   m-auto row   pt-16 w-full max-md:p-3'>
     <Swiper
-        effect={'cube'}
+        effect={'coverflow'}
         grabCursor={true}
-        cubeEffect={{
-          shadow: true,
+        coverflowEffect={{
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
           slideShadows: true,
-          shadowOffset: 20,
-          shadowScale: 0.94,
         }}
         autoplay={{
           delay: 3000,
           disableOnInteraction: false,
         }}
         pagination={true}
-        modules={[EffectCube, Pagination, Autoplay]}
-        className="mySwiper h-72 max-w-lg max-sm:h-60 "
+        modules={[EffectCoverflow, Pagination, Autoplay]}
+        slidesPerView={3}
+        className="mySwiper h-72 max-w-6xl max-sm:h-60 "
       >
         <SwiperSlide className='h-full w-full'>
-          <img src={img1} className='h-full w-full object-cover'/>
+          <img src={img1} className='h-full w-full rounded-md '/>
         </SwiperSlide>
         <SwiperSlide className='h-full w-full'>
-          <img src={img2} className='h-full w-full object-cover' />
+          <img src={img2} className='h-full w-full rounded-md ' />
         </SwiperSlide>
         <SwiperSlide className='h-full w-full'>
-          <img src={img3} className='h-full w-full object-cover' />
+          <img src={img3} className='h-full w-full rounded-md' />
         </SwiperSlide>
         <SwiperSlide className='h-full w-full'>
-          <img src={img4}  className='h-full w-full object-cover'/>
+          <img src={img4}  className='h-full w-full rounded-md '/>
         </SwiperSlide>
       </Swiper>
      
@@ -306,7 +343,7 @@ Looking out for customized solutions for your websites? Our team will develop an
     </div>
     
 </div>
-    
+
     </>
 
    

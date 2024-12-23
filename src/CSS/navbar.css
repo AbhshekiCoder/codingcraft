@@ -15,3 +15,23 @@
 .navbar{
     backdrop-filter: blur(10px);
 }
+.cards{
+    position: absolute;
+    right: 100px;
+    top: 60%;
+    position: fixed;
+    z-index: 999;
+
+}
+@media(max-width: 768px){
+    .cards{
+        top: 79%;
+        right: 70px;
+    }
+}
+@media(max-width: 479px){
+    .cards{
+        top: 82%;
+        right: 20px;
+    }
+}
