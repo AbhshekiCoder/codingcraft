@@ -4,6 +4,18 @@ import Navbar from '../Compnents/Navbar';
 
 import bg3 from '../assets/bg3.jpg'
 import Footer from '../Compnents/Footer';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/swiper-bundle.css'; 
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/effect-cube';
+import 'swiper/css/pagination';
+import { EffectCube, Pagination, Autoplay } from 'swiper/modules';
+import img1 from '../assets/1.png'
+import img2 from '../assets/2.png';
+import img3 from '../assets/3.png'
+import img4 from '../assets/4.png'
+
 export default function Home() {
   return (
     <>
@@ -127,26 +139,40 @@ Looking out for customized solutions for your websites? Our team will develop an
 
     </div>
     <div className=' w-full pt-16 pb-36 max-md:pb-0 ' style={{minHeight: "700px"}}>
-    <h1 className='flex justify-center text-5xl font-bold  mt-36 max-md:text-3xl max-md:mt-9 text-gray-500'>Client we Worked with </h1>
+    <h1 className='flex justify-center text-5xl font-bold  mt-36 max-md:text-3xl max-md:mt-9 text-gray-500'>Our Projects</h1>
     
     <div className=' max-w-5xl m-auto row   pt-16 w-full max-md:p-3'>
-     <div className='col-md  max-md:w-full max-md:flex max-md:justify-center mt-3'>
-     <img src = "https://crazzyshuttlers.com/wp-content/uploads/2021/05/client-logo-5.png"/>
-
-     </div>
-     <div className='col-md max-md:w-full max-md:flex max-md:justify-center  mt-3'>
-     <img src = "https://crazzyshuttlers.com/wp-content/uploads/2021/05/client-logo-5.png"/>
-
-     </div>
-     <div className='col-md  max-md:w-full max-md:flex max-md:justify-center mt-3'>
-     <img src = "https://crazzyshuttlers.com/wp-content/uploads/2021/05/client-logo-5.png"/>
-
-     </div>
-     <div className='col-md max-md:w-full max-md:flex max-md:justify-center mt-3'>
-     <img src = "https://crazzyshuttlers.com/wp-content/uploads/2021/05/client-logo-5.png"/>
-
-     </div>
-
+    <Swiper
+        effect={'cube'}
+        grabCursor={true}
+        cubeEffect={{
+          shadow: true,
+          slideShadows: true,
+          shadowOffset: 20,
+          shadowScale: 0.94,
+        }}
+        autoplay={{
+          delay: 3000,
+          disableOnInteraction: false,
+        }}
+        pagination={true}
+        modules={[EffectCube, Pagination, Autoplay]}
+        className="mySwiper h-72 max-w-lg "
+      >
+        <SwiperSlide className='h-full w-full'>
+          <img src={img1} className='h-full w-full'/>
+        </SwiperSlide>
+        <SwiperSlide className='h-full w-full'>
+          <img src={img2} className='h-full w-full' />
+        </SwiperSlide>
+        <SwiperSlide className='h-full w-full'>
+          <img src={img3} className='h-full w-full' />
+        </SwiperSlide>
+        <SwiperSlide className='h-full w-full'>
+          <img src={img4}  className='h-full w-full'/>
+        </SwiperSlide>
+      </Swiper>
+     
     </div>
     <div className=' max-w-6xl m-auto pt-16 h-fit'>
     <h1 className='mt-6 text-5xl font-bold max-md:flex max-md:justify-center max-md:text-3xl text-gray-500'>Why Choose us?</h1>
