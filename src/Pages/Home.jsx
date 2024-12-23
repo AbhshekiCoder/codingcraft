@@ -157,19 +157,19 @@ Looking out for customized solutions for your websites? Our team will develop an
         }}
         pagination={true}
         modules={[EffectCube, Pagination, Autoplay]}
-        className="mySwiper h-72 max-w-lg "
+        className="mySwiper h-72 max-w-lg max-sm:h-60 "
       >
         <SwiperSlide className='h-full w-full'>
-          <img src={img1} className='h-full w-full'/>
+          <img src={img1} className='h-full w-full object-cover'/>
         </SwiperSlide>
         <SwiperSlide className='h-full w-full'>
-          <img src={img2} className='h-full w-full' />
+          <img src={img2} className='h-full w-full object-cover' />
         </SwiperSlide>
         <SwiperSlide className='h-full w-full'>
-          <img src={img3} className='h-full w-full' />
+          <img src={img3} className='h-full w-full object-cover' />
         </SwiperSlide>
         <SwiperSlide className='h-full w-full'>
-          <img src={img4}  className='h-full w-full'/>
+          <img src={img4}  className='h-full w-full object-cover'/>
         </SwiperSlide>
       </Swiper>
      
