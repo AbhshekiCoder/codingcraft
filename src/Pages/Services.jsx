@@ -31,13 +31,14 @@ export default function Services() {
      <div className='col-md pt-16 border-r-2 h-96 pl-9 max-md:h-fit max-md:border-r-0  max-md:border-b-2 max-md:pl-0 max-md:pb-3'>
      <h1 className='text-3xl font-bold max-md:text-center max-md:text-2xl max-sm:text-xl '>Creative Design</h1>
      <p className='text-lg font-bold mt-6 max-sm:text-base'>Our team of professional graphic and web designers will help you with unique and creative logo and website designs that will match your business.</p>
-     <button className='mt-6 border p-2'>Get in Touch</button>
+     <button className='mt-6 border p-2'><a href = "https://wa.link/xg97t2">Get in Touch </a>
+</button>
 
      </div>
      <div className='col-md pt-16 border-r-2 h-96   pl-9 max-md:h-fit max-md:border-r-0   max-md:pl-0 max-md:border-b-2 max-md:pb-3'>
      <h1 className='text-3xl font-bold max-md:text-2xl max-sm:text-xl'>Research & Development</h1>
      <p className='text-lg font-bold mt-6 max-sm:text-base'>We help you develop the right website with a good user interface built after a lot of research in the industry to help you make the best out of it.</p>
-     <button className='mt-6 border p-2'>Get in Touch</button>
+     <button className='mt-6 border p-2'><a href = "https://wa.link/xg97t2">Get in Touch </a></button>
 
      </div>
 
@@ -45,7 +46,7 @@ export default function Services() {
      <h1 className='text-3xl font-bold max-md:text-2xl max-sm:text-xl'>Branding & Marketing</h1>
      <p className='text-lg font-bold mt-6 max-sm:text-base'>Branding & Marketing
      Need help with branding and marketing to reach out to a larger audience? We can help you create a brand presence and marketing efforts.</p>
-     <button className='mt-6 border p-2'>Get in Touch</button>
+     <button className='mt-6 border p-2'><a href = "https://wa.link/xg97t2">Get in Touch </a></button>
 
      </div>
 

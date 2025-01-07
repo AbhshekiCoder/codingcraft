@@ -40,7 +40,7 @@ export default function About() {
     <div className=' '>
    
     <div className='text-lg font-bold mt-9 max-md:text-sm '>
-    We are a team of 40 web experts with over 12 years of experience in website building and marketing to help businesses grow online.
+    We are a team of 10 web experts with over 2 years of experience in website building and marketing to help businesses grow online.
 
     </div>
 

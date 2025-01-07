@@ -1,7 +1,7 @@
 import React from 'react'
 import '../CSS/navbar.css'
 import { Link } from 'react-router-dom'
-import logo from '../assets/bg.png'
+import logo from '../assets/logo.png'
 export default function Navbar() {
   function sidebar(){
   

@@ -19,6 +19,7 @@ import img4 from '../assets/4.png'
 import Card from '../Compnents/Card';
 
 export default function Home() {
+  
   return (
     <>
    
@@ -155,14 +156,16 @@ Looking out for customized solutions for your websites? Our team will develop an
         pagination={true}
         modules={[EffectCube, Pagination, Autoplay]}
        
-        className="mySwiper h-72 max-w-2xl max-sm:h-60 "
+        className="mySwiper h-96 max-w-2xl max-sm:h-60 "
       >
-        <SwiperSlide className='h-full w-full'>
+        <SwiperSlide className='h-full w-full ' >
+        <div className='absolute text-white project-item flex justify-center items-center'>E-Commerce</div>
           
-          <img src={img1} className='h-full w-full rounded-md ' />
+          <img src={img1} className='h-full w-full rounded-md ' onMouseOver={()=>{document.querySelector('.project-item').classList.add("project-items"), setTimeout(()=>{document.querySelector('.project-item').classList.remove("project-items")},2000)}} />
         </SwiperSlide>
         <SwiperSlide className='h-full w-full'>
-          <img src={img2} className='h-full w-full rounded-md ' />
+        <div className='absolute text-white project-item2 flex justify-center items-center'>Food Delivery website</div>
+          <img src={img2} className='h-full w-full rounded-md ' onMouseOver={()=>{document.querySelector('.project-item2').classList.add("project-items"), setTimeout(()=>{document.querySelector('.project-item2').classList.remove("project-items")},2000)}} />
         </SwiperSlide>
         <SwiperSlide className='h-full w-full'>
           <img src={img3} className='h-full w-full rounded-md' />
